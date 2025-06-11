@@ -1,0 +1,52 @@
+/* Rama Premium Content Kit - Main CSS */
+
+body { font-family: 'Outfit', sans-serif; background: #f7f7f9; margin: 0; padding: 0; color: #111; scroll-behavior: smooth; }
+
+header { background: #000; color: white; text-align: center; padding: 50px 20px 30px; }
+
+header h1 { font-size: 2.5em; margin: 0; }
+
+.tagline { font-size: 1.2em; margin-top: 10px; }
+
+.top-nav { display: flex; justify-content: center; gap: 20px; background-color: #fff; padding: 10px 0; box-shadow: 0 2px 8px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 999; }
+
+.top-nav a { color: #111; text-decoration: none; font-weight: 600; transition: 0.3s; }
+
+.top-nav a:hover { color: #3498db; }
+
+.section { padding: 40px 20px; max-width: 800px; margin: auto; }
+
+.highlight { font-size: 1.3em; font-weight: 600; color: #222; margin-bottom: 20px; }
+
+.features { background: #fff; padding: 25px; border-radius: 20px; box-shadow: 0 0 15px rgba(0,0,0,0.05); margin-bottom: 40px; transition: all 0.3s ease; }
+
+.features ul { padding-left: 20px; }
+
+.product-box { padding: 25px; border-radius: 20px; color: white; margin-bottom: 30px; }
+
+.red { background: #e74c3c; }
+
+.blue { background: #3498db; }
+
+.product-box h2 { margin-top: 0; }
+
+.btn { display: inline-block; padding: 12px 24px; background: white; color: black; border-radius: 30px; text-decoration: none; font-weight: bold; margin-top: 15px; transition: 0.3s; }
+
+.btn:hover { background: #000; color: white; }
+
+.about { text-align: center; color: #333; font-size: 0.95em; margin-top: 60px; padding: 0 20px 40px; }
+
+.telegram-btn { position: fixed; bottom: 25px; right: 25px; background: #0088cc; color: white; padding: 12px 20px; border-radius: 30px; text-decoration: none; font-weight: bold; box-shadow: 0 5px 15px rgba(0,0,0,0.1); z-index: 999; }
+
+/* Animations */ .fade-in { animation: fadeIn 1s ease-in; }
+
+@keyframes fadeIn { 0% { opacity: 0; transform: translateY(-10px); } 100% { opacity: 1; transform: translateY(0); } }
+
+/* Responsive */ @media (max-width: 768px) { .top-nav { flex-direction: column; gap: 10px; }
+
+header h1 { font-size: 1.8em; }
+
+.highlight { font-size: 1.1em; }
+
+.btn { padding: 10px 20px; font-size: 0.9em; } }
+
